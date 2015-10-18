@@ -43,7 +43,19 @@ $user = new User();
                 </div>
 				<?php
 				}
-				?>				
+				?>
+				<?php
+				if ($user->isLoggedIn() && ($user->hasPermission('admin') || $user->hasPermission('moderator'))) {
+					$msg = $user->hasPermission('admin') ? 'Administrator' : 'Moderator';
+					?>
+				<div class="very-large-space"></div>
+                <div class="alert alert-info">
+                    <button class="close" type="button" data-dismiss="alert">&times;</button>
+                    <strong>Welcome <?php echo $msg; ?>!</strong>
+                </div>
+				<?php
+				}
+				?>
             </div>
         </div>
         
