@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: http://www.thunderbots.tk/api
+Disallow: http://www.thunderbots.tk/css
+Disallow: http://www.thunderbots.tk/js
+Disallow: http://www.thunderbots.tk/verify
+Disallow: http://www.thunderbots.tk/notifications
+Allow: http://www.thunderbots.tk/images
