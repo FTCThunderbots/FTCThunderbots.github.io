@@ -20,9 +20,30 @@ $user = new User();
                 </ul>
                 <center><div align="center" id="nav-picture-div"><a href="index.html"><img src="css/img/thunderbots_logo.PNG" alt="Thunderbots Logo" id="nav-picture"/></a></div><center>
                 <ul class="pull-right">
+				<?php
+					if ($user->isLoggedIn()) {
+						$escaped_name = escape($user->data()->username);
+						?>
+						<li><a href="<?php echo 'profile.php?user=' . $escaped_name; ?>" target="_blank">Profile</a></li>
+						<li><a href="logout.php" target="_blank">Log Out</a></li>
+					<?php
+					} else {
+						?>
                     <li><a href="error.html" target="_blank">Sign Up</a></li>
                     <li><a href="error.html" target="_blank">Log In</a></li>
+					<?php } ?>
                 </ul>
+				<?php
+				if (Session::exists('home')) {
+					?>
+				<div class="very-large-space"></div>
+                <div class="alert alert-info">
+                    <button class="close" type="button" data-dismiss="alert">&times;</button>
+                    <strong><?php echo Session::flash('home'); ?></strong>
+                </div>
+				<?php
+				}
+				?>				
             </div>
         </div>
         
