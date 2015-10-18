@@ -1,24 +1,14 @@
+<?php
+require_once 'core/init.php';
+
+$user = new User();
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Thunderbots 5604</title>
-        <meta charset="UTF-8">
-        <meta name="keywords" content="Thunderbots, Thunderbots 5604, Mountain View High School, MVHS">
-        <meta name="description" content="Thunderbots 5604 Website">
-        <meta name="author" content="Javier Anton">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
-        <link rel="icon" type="image/png" href="css/img/thunderbots_icon-32x32.png" sizes="32x32" />
-        <link rel="icon" type="image/png" href="css/img/thunderbots_icon-16x16.png" sizes="16x16" />
-        <link type="text/css" rel="stylesheet" href="css/normalize.css">
-        <link type="text/css" rel="stylesheet" href="css/shift.css">
-        <link type="text/css" rel="stylesheet" href="css/bootstrap.css">
-        <link type="text/css" rel="stylesheet" href="css/main.css">
-        <link type="text/css" rel="stylesheet" href="fonts\font-awesome\css\font-awesome.min.css">
-        <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
-        <!--[if lt IE 9]>
-            <script src="http://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-            <script src="http://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-        <![endif]-->
+        <?php
+			createHeader(0, "Thunderbots 5604");
+		?>
     </head>
     
     <body>

@@ -4,9 +4,9 @@ session_start();
 $GLOBALS['config'] = array(
 	'mysql' => array(
 		'host' => '127.0.0.1',
-		'username' => 'thunde24',
+		'username' => 'robomtvx_admin',
 		'password' => 'thunderbots5604',
-		'db' => 'thunde24_lr'
+		'db' => 'robomtvx_users'
 	),
 	'remember' => array(
 		'cookie_name' => 'hash',
