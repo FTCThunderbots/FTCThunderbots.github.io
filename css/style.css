@@ -11,7 +11,7 @@
 	color: #bdc3c7 !important;
 }
 .nav-transition {
-	transition: background-color 1s ease 0s;
+	transition: background-color .1s ease 0s;
 }
 .testingtest {
 	margin: auto;
@@ -24,3 +24,14 @@
 .background-black {
 	background: #000000;
 }
+.icon-color {
+	color: #212529 !important;
+}
+.icon-color:hover {
+	color: #ffffff !important;
+}
+.background-cover {
+	object-fit: cover;
+	overflow: hidden;
+}
+
