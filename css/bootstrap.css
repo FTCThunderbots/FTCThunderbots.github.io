@@ -357,7 +357,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 h1, .h1 {
-  font-size: 2.5rem;
+  font-size: 10rem;
 }
 
 h2, .h2 {
@@ -6284,6 +6284,16 @@ a.close.disabled {
   padding-top: 20px;
   padding-bottom: 20px;
   color: #fff;
+  text-align: center;
+}
+
+.carousel-text {
+  position:absolute;
+  top: 30%;
+  bottom: 30%;
+  left: 15%;
+  right: 15%;
+  color: #000;
   text-align: center;
 }
 
