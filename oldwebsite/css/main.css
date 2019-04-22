@@ -112,7 +112,7 @@
 
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
     color: #FFFFFF;
-    background-color: ##3498db;
+    background-color: #3498db;
     transition: background 0.5s;
 }
 
