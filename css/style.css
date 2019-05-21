@@ -48,3 +48,7 @@
 .w-half {
 	width: 49%;
 }
+
+.constrain-img {
+	max-width: 100%;
+}
