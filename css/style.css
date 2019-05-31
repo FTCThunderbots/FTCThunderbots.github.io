@@ -58,7 +58,6 @@
 }
 
 .container-notfull {
-	margin: auto;
-	padding: auto;
+	padding: 10px;
 	width: 100%;
 }
