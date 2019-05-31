@@ -56,3 +56,60 @@
 	max-width: 100%;
 	height: auto;
 }
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    color: #FFFFFF;
+    background-color: #3498db;
+    transition: background 0.5s;
+}
+
+.nav-pills > li > a {
+    background: #DDDDDD;
+}
+
+.nav-pills > li > a:hover, .nav-pills > li > a:focus {
+    color: #00B0FF;
+    background-color: #2980b9;
+    transition: background 0.5s;
+}
+
+.nav-button {
+    display: inline-grid;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    background: #2980b9; /*changed*/
+    text-align: center;
+    width: 11.35em;
+    padding-top: 1.0375em;
+    padding-bottom: 1.0375em;
+
+
+    transition: background .5s;
+
+}
+
+.nav-button:hover {
+    background: #3498db;
+    transition: background .5s;
+}
+.small-space {
+    height: .725em;
+}
+
+.space {
+    height: 1.35em;
+    clear: both;
+}
+
+.large-space {
+    height: 2.9125em;
+}
+
+.very-large-space {
+    height: 3.5375em;
+}
+
+.extra-large-space {
+    height: 5.725em;
+}
