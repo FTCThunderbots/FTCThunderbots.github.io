@@ -567,10 +567,10 @@ pre code {
 
 .container-fluid {
   width: 100%;
-  padding-right: 0px;
-  padding-left: 0px;
-  margin-right: 0px;
-  margin-left: 0px;
+  padding-right: 5px;
+  padding-left: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
 }
 
 .row {
