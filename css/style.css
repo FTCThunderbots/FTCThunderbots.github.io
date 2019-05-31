@@ -113,3 +113,50 @@
 .extra-large-space {
     height: 5.725em;
 }
+
+.main-content {
+    background-color: #FFFFFF;
+    border-bottom: .0625em solid #DBDBDB;
+}
+
+.main-content h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #393C3D;
+    font-size: 1.925em;
+    text-align: center;
+}
+
+.main-content h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #393C3D;
+    font-size: 1.6em;
+    text-align: center;
+}
+
+.main-content h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.35em;
+    text-align: center;
+}
+
+.main-content p {
+    font-size: 1.225em;
+    margin-bottom: .925em;
+    text-align: center;
+}
+
+.main-content img {
+    width: 15.725em;
+    height: 12.6em;
+    border: solid .4125em #fff;
+    transition: border .2s;
+}
+
+.main-content img:hover {
+    border: solid .5375em #2980b9;
+    transition: border .2s;
+}
+
+#team img {
+    border: none;
+}
