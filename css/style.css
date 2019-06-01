@@ -48,8 +48,8 @@
 	height: 75%;
 }
 
-.w-half {
-	width: 49%;
+.w-nothalf {
+	width: 48%;
 }
 
 .constrain-img {
