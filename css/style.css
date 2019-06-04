@@ -65,3 +65,11 @@
 .black-text {
 	color: #000000 !important;
 }
+
+.h-half {
+	height: 50%;
+}
+
+.h-nothalf {
+	height: 48%;
+}
