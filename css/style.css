@@ -40,7 +40,7 @@
 
 .container-full {
 	margin: 0 auto;
-	padding: 0 -15px;
+	padding: 0 auto;
 	width: 100%;
 }
 
@@ -80,4 +80,9 @@
 	margin-right: auto;
 	margin-top: 0;
 	margin-bottom: 0;
+}
+
+.container-fix {
+	padding: 0 -15px;
+	width: 100%
 }
