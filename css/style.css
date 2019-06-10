@@ -9,6 +9,9 @@ body {
 	flex: 1 0 auto;
 }
 
+footer {
+	margin: auto auto 0 auto;
+}
 
 .active {
 	color: #bdc3c7;
