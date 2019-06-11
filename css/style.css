@@ -111,9 +111,3 @@ footer {
 	margin-top: 0;
 	margin-bottom: 0;
 }
-
-.center-vertical {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
