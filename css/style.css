@@ -28,8 +28,9 @@ footer {
 .white {
 	color: #ecf0f1 !important;
 }
-.blue {
+.caption {
 	color: #483d8b !important;
+	font-weight: bold;
 }
 .nav-text {
 	color: #ecf0f1 !important;
