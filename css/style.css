@@ -29,8 +29,13 @@ footer {
 	color: #ecf0f1 !important;
 }
 .caption {
-	color: #483d8b !important;
-	font-weight: bold;
+	color: #1e90ff !important;
+	font-weight: 500;
+	text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
 }
 .nav-text {
 	color: #ecf0f1 !important;
