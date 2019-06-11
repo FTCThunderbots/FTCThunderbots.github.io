@@ -12,6 +12,16 @@ footer {
 	margin: auto 0 0;
 }
 
+.carousel-item {
+	height: 1266px;
+	overflow: hidden;
+	width: 100%;
+}
+
+.carousel-item img {
+	width: 100%;
+}
+
 .active {
 	color: #bdc3c7;
 }
