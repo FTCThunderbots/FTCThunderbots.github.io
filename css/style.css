@@ -13,7 +13,6 @@ footer {
 }
 
 .carousel-item {
-	height: 1266px;
 	overflow: hidden;
 	width: 100%;
 }
@@ -109,4 +108,8 @@ footer {
 	margin-bottom: 0;
 	width: 100%;
 	height: auto;
+}
+
+.fitdisplay {
+	height: 80vh !important;
 }
