@@ -38,40 +38,72 @@
 	</nav>
 
 	<body>
-		<br><br><br>
-		<img class="d-block w-100 background-cover" src="css/img/lego.jpg">
+		<br><br><br><br>
+		<script>
+			bgHeight = $(window).height();
+			console.log(bgHeight);
+			document.getElementById('background').setAttribute("style","height:"+temp+"px");
+		</script>
+		<img id="background" class="d-block background-cover fitdisplay" src="css/img/outreach.JPG">
 		<div class="container-notfull">
 			<div class="row">
 				<div class="col-md-12 text-center">
+					<br>
 					<h2>
-					Summer Camps 2019
+					Outreach
 					</h2>
-					<br>
-					<h3>Curriculum</h3>
-					<p>	
-					In this camp, students will have the opportunity to discover the basics of building and programming robots. They will learn how to make a successful robot using LEGOs while developing important real world skills such as teamwork and gracious professionalism. In addition, they will program using software from LEGO Mindstorms. This will give them an understanding of basic coding structures. In the end, students will be able to build and program their own robot to compete with each other on a game field. We hope to see you at this exciting new robotics experience!
-					</p>
-					<br>
+					<br><br>
 				</div>
 			</div>
-			<div class="row align-items-center">
-				<div class="col-md-6 align-self-center constrain-img">
-					<img class="h-75 img-center" src="css/img/flyer.png">
+			<div class="row">
+				<div class="col-md-1">
 				</div>
-				<div class="col-md-6 text-center align-self-center">
-					<h3> 
-					There will be an entertaining robotics camp for <b>5th-8th graders</b> at <br><b>Mountain View High School in Room 111</b> from <b>9:00 to 3:00</b> for <b>beginning coders.</b> 
-					</h3>
-					<h4><a href="/css/img/You are invited to an out of this world party to celebrate.pdf" download>Here</a> is a download to the flyer of the Thunderbots Robotic Camp.</h3>
-					<br>
-					<h3>Details</h3>
-					<p><b>Place:</b> Mountain View High School Room 111</p>
-					<p><b>Time:</b> 9:00 AM to 3:00 PM with a half hour lunch</p>
-					<p><b>Days:</b> June 17-21, July 8-12, August 5-9</p>
-					<p><b>Price:</b> $200 Weekly, Financial Aid Available (Contact Us!)</p>
-					<p>Maximum of 10 people per day</p>
-					<br>
-					<h4>To Register, Please Click <a href="https://forms.gle/NsNetanT5tDtAED89">Here</a></h4>
+				<div class="col-md-10">
+					<nav id="navbar-example2" class="navbar navbar-light bg-light">
+						<a class="navbar-brand" href="#"><b>Upcoming Events</b></a>
+						<ul class="nav nav-pills">
+						  <li class="nav-item">
+							<a class="nav-link" href="#a">Summer Camps 2019</a>
+						  </li>
+						  <li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Previous Events</a>
+							<div class="dropdown-menu">
+							  <a class="dropdown-item" href="#one">one</a>
+							  <a class="dropdown-item" href="#two">two</a>
+							  <div role="separator" class="dropdown-divider"></div>
+							  <a class="dropdown-item" href="#three">three</a>
+							</div>
+						  </li>
+						</ul>
+					</nav>
+				</div>
+				<div class="col-md-1">
+				</div>
+			</div>
+			<div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+				<div id="a" class="row">
+					<div class="col-md-1">
+					</div>
+					<div class="col-md-10 text-center">
+						<div class="jumbotron">
+							<div class="row">
+								<div class="col-md-6">
+									<img class="d-block img-center" src="css/img/lego.jpg">
+								</div>
+								<div class="col-md-6">
+									<h1 class="display-4">Summer Camps 2019</h1>
+									<p class="lead">LEGO Mindstorms & FLL themed summer camp</p>
+									<hr class="my-4">
+									<p>There will be a robotics summer camp held at Mountain View High School in June, July, and August for those interested in learning programming with LEGO-based robots.</p>
+									<p class="lead">
+								  	<a class="btn btn-primary btn-lg" href="outreach/2019summercamp.html" role="button">Read more</a>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-1">
+					</div>
 				</div>
 			</div>
 		</div>
@@ -82,7 +114,7 @@
 	        <div class="container-full">
 	            <br>
 	            <div class="row">
-	            	<div class="col-md-12 w-100">
+	            	<div class="col-md-6 w-100">
 	                        <div class="text-center">
 	                            <a class="icon-color" href="mailto:thunderbotsftc@gmail.com">
 	                                <i class="fas fa-envelope fa-lg" aria-hidden="true"></i>
