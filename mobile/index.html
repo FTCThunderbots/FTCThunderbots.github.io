@@ -24,6 +24,29 @@
 		h1 {
 			margin: 1rem;
 		}
+		:root {
+      			--space-2: 1rem;   /* 16px */
+    		}
+    		.sample-sidebar {
+     	 		width: 250px;
+      			padding: var(--space-2);
+    		}
+    		.sample-sidebar > * {
+      			margin-top: var(--space-2);
+    		}
+    		.sample-sidebar li,
+    		nav[toolbar] li {
+      			margin-bottom: var(--space-2);
+      			margin-left: 0;
+      			margin-right: var(--space-2);
+      			list-style: none;
+    		}
+    		.previewOnly {
+      			margin: var(--space-2);
+    		}
+    		#sidebar-right nav.amp-sidebar-toolbar-target-shown {
+        		display: none;
+    		}
 	</style>
 	</head>
 	<body>
