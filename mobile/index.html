@@ -14,10 +14,10 @@
         <script async custom-element="amp-sidebar" src="https://server7.kproxy.com/servlet/redirect.srv/slxv/scmpvbfefds/shyy/p2/v0/amp-sidebar-0.1.js"></script>
     </head>
     <body>
-        <amp-sidebar id="navbar"
+        <amp-sidebar id="sidebar-right"
         class="sample-sidebar"
         layout="nodisplay"
-        side="left">
+        side="right">
         <amp-img alt="Logo"
             src="../css/img/thunderbots_logo.PNG"
             width="200px"
@@ -25,7 +25,7 @@
         </amp-img>
         <button on="tap:sidebar-right.close">Close sidebar</button>
             <nav toolbar="(min-width: 784px)"
-            toolbar-target="target-element-left">
+            toolbar-target="target-element-right">
             <ul>
                 <li>
                     <a href="index.html">Home</a>
@@ -41,7 +41,7 @@
                 </li>
             </ul>
         </amp-sidebar>
-        <button on="tap:sidebar-left.toggle">Toggle sidebar</button>
-        <div id="target-element-left"></div>
+        <button on="tap:sidebar-right.toggle">Toggle sidebar</button>
+        <div id="target-element-right"></div>
     </body>
 </html>
