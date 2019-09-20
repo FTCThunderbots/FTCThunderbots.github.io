@@ -15,9 +15,11 @@
     </head>
     <body>
         <amp-sidebar id="sidebar-right"
-        class="sample-sidebar"
+        class="sample-sidebar i-amphtml-element i-amphtml-layout-nodisplay i-amphtml-overlay i-amphtml-scrollable"
         layout="nodisplay"
-        side="right">
+        side="right"
+	aria-hidden="true"
+	role="menu">
         <amp-img alt="Logo"
             src="../css/img/thunderbots_logo.PNG"
             width="200px"
@@ -42,7 +44,5 @@
             </ul>
         </amp-sidebar>
         <button on="tap:sidebar-right.toggle">Toggle sidebar</button>
-        <div id="target-element-right"></div>
-	<button on="tap:sidebar-right.toggle">Toggle sidebar</button>
     </body>
 </html>
