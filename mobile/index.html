@@ -48,6 +48,14 @@
 		.logospace {
 			background-color: #bdc3c7;
 		}
+		.carousel-slide-container {
+			position: relative;
+			width: 100%;
+			height: 50rem;
+		}
+		.cover img {
+			object-fit: cover;
+		}
     		#sidebar-right nav.amp-sidebar-toolbar-target-shown {
         		display: none;
     		}
@@ -81,42 +89,46 @@
 			type="slides"
 			loop
 			autoplay>
-		<div class="slide">
+		<div class="slide carousel-slide-container">
  	 		<amp-img src="../css/img/1.jpg"
+				class="cover"
     				width="600"
     				height="300"
 				layout="responsive"
-				alt=""></amp-img>
+				alt="First slide"></amp-img>
 			<div class="caption">
 			Thunderbots Getting Inspires Award
 			</div>
 		</div>
-		<div class="slide">
+		<div class="slide carousel-slide-container">
 	  		<amp-img src="../css/img/2.jpg"
-    				width="600"
+    				class="cover"
+				width="600"
     				height="300"
 				layout="responsive"
-				alt=""></amp-img>
+				alt="Second slide"></amp-img>
 			<div class="caption">
 			Summer Robotics Camp
 			</div>
 		</div>
-		<div class="slide">
+		<div class="slide carousel-slide-container">
 	  		<amp-img src="../css/img/6.jpg"
-    				width="600"
+    				class="cover"
+				width="600"
     				height="300"
 				layout="responsive"
-				alt=""></amp-img>
+				alt="Third slide"></amp-img>
 			<div class="caption">
 			We thought you might like this bear
 			</div>
 		</div>
-		<div class="slide>
+		<div class="slide carousel-slide-container>
 	  		<amp-img src="../css/img/crossover.JPG"
-    				width="600"
+    				class="cover"
+				width="600"
     				height="300"
 				layout="responsive"
-				alt=""></amp-img>
+				alt="Fourth slide"></amp-img>
 			<div class="caption">
 			Thunderbots 5604 & Geared Reactions 6559
 			</div>
