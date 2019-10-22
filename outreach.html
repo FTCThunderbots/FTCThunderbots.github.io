@@ -43,11 +43,8 @@
 			bgHeight = $(window).height();
 			console.log(bgHeight);
 			document.getElementById('background').setAttribute("style","height:"+temp+"px");
-			var offset = 91;
-			$('.navbar li a').click(function(event) {
-    			event.preventDefault();
-    			$($(this).attr('href'))[0].scrollIntoView();
-   			scrollBy(0, -offset);
+			$('body').scrollspy({
+   			offset: 91
 			});
 		</script>
 		<img id="background" class="d-block background-cover fitdisplay" src="css/img/outreach.JPG">
