@@ -113,3 +113,8 @@ footer {
 .fitdisplay {
 	height: 80vh !important;
 }
+
+.bigp {
+	font-size: 1em;
+	line-height: 1.2;
+}
