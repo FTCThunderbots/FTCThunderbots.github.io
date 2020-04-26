@@ -108,6 +108,7 @@ footer {
 	margin-bottom: 0;
 	width: 100%;
 	height: auto;
+	object-fit: cover;
 }
 
 .fitdisplay {
@@ -117,11 +118,4 @@ footer {
 .bigp {
 	font-size: 1em;
 	line-height: 1.2;
-}
-
-.img-dimension-sync-mask {
-	float: left;
-	width: 1%;
-	background-size: cover;
-	overflow: hidden;
 }
