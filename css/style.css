@@ -118,3 +118,10 @@ footer {
 	font-size: 1em;
 	line-height: 1.2;
 }
+
+.img-dimension-sync-mask {
+	float: left;
+	width: 1%;
+	background-size: cover;
+	overflow: hidden;
+}
