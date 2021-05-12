@@ -16,24 +16,24 @@
 	<nav class="navbar navbar-expand-lg navbar-light fixed-top bg-primary">
   		<a class="navbar-brand" href="index.html"><img src="css/img/thunderbots_logo.PNG" alt="Thunderbots"></a>
   		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-    		<span class="navbar-toggler-icon nav-text"></span>
+			<span class="navbar-toggler-icon nav-text"></span>
   		</button>
 
   		<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-	    	<ul class="navbar-nav ml-md-auto mt-2 mt-lg-0">
-		      	<li class="nav-item active">
-    				<a class="text-center nav-link nav-text" href="index.html">Home</a>
+			<ul class="navbar-nav ml-md-auto mt-2 mt-lg-0">
+			  	<li class="nav-item active">
+					<a class="text-center nav-link nav-text" href="index.html">Home</a>
   				</li>
-		      	<li class="nav-item">
-		        	<a class="text-center nav-link nav-text" href="FIRST.html">FIRST</a>
-		      	</li>
-	      		<li class="nav-item">
-	      			<a class="text-center nav-link nav-text" href="outreach.html"><span class="sr-only">(current)</span>Events</a>
-	      		</li>
+			  	<li class="nav-item">
+					<a class="text-center nav-link nav-text" href="FIRST.html">FIRST</a>
+			  	</li>
+		  		<li class="nav-item">
+		  			<a class="text-center nav-link nav-text" href="outreach.html"><span class="sr-only">(current)</span>Events</a>
+		  		</li>
 			<li class="nav-item">
-	      			<a class="text-center nav-link nav-text" href="about.html">About</a>
-	      		</li>
-		    </ul>
+		  			<a class="text-center nav-link nav-text" href="about.html">About</a>
+		  		</li>
+			</ul>
   		</div>
 	</nav>
 
@@ -44,7 +44,7 @@
 			console.log(bgHeight);
 			document.getElementById('background').setAttribute("style","height:"+temp+"px");
 			$( document ).ready(function() {
-    				$("body").scrollspy({target: "#scroll-nav", offset:91});
+					$("body").scrollspy({target: "#scroll-nav", offset:91});
 			});
 		</script>
 		<img id="background" class="d-block background-cover fitdisplay" src="css/img/outreach/outreach.JPG">
@@ -76,27 +76,31 @@
 					<nav id="outreach-bar" class="navbar navbar-light bg-light">
 						<a class="navbar-brand" href="#"><b>Upcoming Events</b></a>
 						<ul class="nav nav-pills">
-						  <li class="nav-item">
-							<a class="nav-link" href="#a">Printing PPE for Medical Facilities</a>
-						  </li>
-						  <li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Previous Events</a>
-							<div class="dropdown-menu">
-							  <a class="dropdown-item" href="#7">Interleagues</a>
-							  <div role="separator" class="dropdown-divider"></div>
-							  <a class="dropdown-item" href="#6">League Competition #2</a>
-							  <div role="separator" class="dropdown-divider"></div>
-							  <a class="dropdown-item" href="#5">Girls in STEM</a>
-							  <div role="separator" class="dropdown-divider"></div>
-							  <a class="dropdown-item" href="#4">League Competition #1</a>
-							  <div role="separator" class="dropdown-divider"></div>
-							  <a class="dropdown-item" href="#3">Storming through Science</a>
-							  <div role="separator" class="dropdown-divider"></div>
-							  <a class="dropdown-item" href="#2">Skystone Kickoff 2020</a>
-							  <div role="separator" class="dropdown-divider"></div>
-							  <a class="dropdown-item" href="#1">Summer Camps 2019</a>
-							</div>
-						  </li>
+							<!--
+						  	<li class="nav-item">
+								<a class="nav-link" href="#a"></a>
+							</li>
+							-->
+						  	<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Previous Events</a>
+								<div class="dropdown-menu">
+								<a class="dropdown-item" href="#8">Printing PPE for Medical Facilities</a>
+								<div role="separator" class="dropdown-divider"></div>
+							  	<a class="dropdown-item" href="#7">Interleagues</a>
+							  	<div role="separator" class="dropdown-divider"></div>
+							  	<a class="dropdown-item" href="#6">League Competition #2</a>
+							  	<div role="separator" class="dropdown-divider"></div>
+							  	<a class="dropdown-item" href="#5">Girls in STEM</a>
+							  	<div role="separator" class="dropdown-divider"></div>
+							  	<a class="dropdown-item" href="#4">League Competition #1</a>
+							  	<div role="separator" class="dropdown-divider"></div>
+							  	<a class="dropdown-item" href="#3">Storming through Science</a>
+							  	<div role="separator" class="dropdown-divider"></div>
+							  	<a class="dropdown-item" href="#2">Skystone Kickoff 2020</a>
+							  	<div role="separator" class="dropdown-divider"></div>
+							  	<a class="dropdown-item" href="#1">Summer Camps 2019</a>
+								</div>
+						  	</li>
 						</ul>
 					</nav>
 				</div>
@@ -104,7 +108,7 @@
 				</div>
 			</div>
 			<div data-spy="scroll" data-target="#outreach-bar" data-offset="0">
-				<div id="a" class="row align-items-center">
+				<div id="8" class="row align-items-center">
 					<div class="col-md-1">
 					</div>
 					<div class="col-md-10 text-center">
@@ -317,40 +321,37 @@
 	
 	<footer class="bg-light">
 
-	        <div class="container-full">
-	            <br>
-	            <div class="row">
-	            	<div class="col-md-12">
-	                        <div class="text-center">
-	                            <a class="icon-color" href="mailto:thunderbotsftc@gmail.com">
-	                                <i class="fas fa-envelope fa-lg" aria-hidden="true"></i>
-	                            </a>
-	                            <a class="icon-color" href="https://github.com/Thunderbots5604/Thunderbots5604.github.io">
-	                                <i class="fab fa-github fa-lg" aria-hidden="true"></i>
-	                            </a>
-	                            <a class="icon-color" href="https://www.facebook.com/thunderbots5604">
-	                                <i class="fab fa-facebook fa-lg" aria-hidden="true"></i>
-	                            </a>
-	                            <a class="icon-color" href="https://twitter.com/thunderbots5604">
-	                            	<i class="fab fa-twitter fa-lg" aria-hidden="true"></i>
-	                            </a>
-	                            <a class="icon-color" href="https://instagram.com/thunderbots5604">
-	                            	<i class="fab fa-instagram fa-lg" aria-hidden="true"></i>
-	                            </a>
-	                            <a class="icon-color" href="https://plus.google.com/107910137570087693868">
-	                            	<i class="fab fa-google-plus fa-lg" aria-hidden="true"></i>
-	                            </a>
-	                            <a class="icon-color" href="https://www.youtube.com/channel/UCL-qjDzCTUEQHF1KXEZPJpA">
-	                            	<i class="fab fa-youtube fa-lg" aria-hidden="true"></i>
-	                            </a>
-	                        </div>
-	                    </div>
-	                <div class="text-center col-md-12">
-	                        <i class="far fa-copyright"></i> 2019 Thunderbots 5604, All Rights Reserved.
-	                </div>
-	            </div>
-	        </div>
-	        <br>
-	    </footer>
+			<div class="container-full">
+				<br>
+				<div class="row">
+					<div class="col-md-12">
+							<div class="text-center">
+								<a class="icon-color" href="mailto:thunderbotsftc@gmail.com">
+									<i class="fas fa-envelope fa-lg" aria-hidden="true"></i>
+								</a>
+								<a class="icon-color" href="https://github.com/Thunderbots5604/Thunderbots5604.github.io">
+									<i class="fab fa-github fa-lg" aria-hidden="true"></i>
+								</a>
+								<a class="icon-color" href="https://www.facebook.com/thunderbots5604">
+									<i class="fab fa-facebook fa-lg" aria-hidden="true"></i>
+								</a>
+								<a class="icon-color" href="https://twitter.com/thunderbots5604">
+									<i class="fab fa-twitter fa-lg" aria-hidden="true"></i>
+								</a>
+								<a class="icon-color" href="https://instagram.com/thunderbots5604">
+									<i class="fab fa-instagram fa-lg" aria-hidden="true"></i>
+								</a>
+								<a class="icon-color" href="https://www.youtube.com/channel/UCL-qjDzCTUEQHF1KXEZPJpA">
+									<i class="fab fa-youtube fa-lg" aria-hidden="true"></i>
+								</a>
+							</div>
+						</div>
+					<div class="text-center col-md-12">
+							<i class="far fa-copyright"></i> 2019 Thunderbots 5604, All Rights Reserved.
+					</div>
+				</div>
+			</div>
+			<br>
+		</footer>
 
 </html>
